@@ -18,9 +18,11 @@ const {url}=req.body
 if(!url){
     return res.status(400).json({success: false,message: "URL is required or INvalid URL"});
 }
+//if url does not have prefix: https://
+const fullUrl = url.startsWith("http") ? url : `https://${url}`;
 try{
-    const result = await analyzeURL(url);
-    console.log(url);
+    const result = await analyzeURL(fullUrl);
+    console.log(fullUrl);
     return res.json(result);
 }catch(err){
     return res.status(500).json({error: err.message});
