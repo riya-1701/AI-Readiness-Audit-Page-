@@ -26,6 +26,9 @@ Tech Stack:
 Frontend: React.js, JavaScript(ES6+)
 Backend: Express.js, REST API 
 
+Live Link: https://ai-readiness-audit-page.vercel.app/
+Deployed frontend on Vercel and backend on Render.
+
 TEST CASES:
 https://write-box.appspot.com/
 https://example.com
