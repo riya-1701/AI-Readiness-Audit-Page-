@@ -31,7 +31,7 @@ const handleAnalyze = async()=>{
     }
 
     return(
-        <div className="min-h-screen bg-[url('../public/bg.jpg')] bg-cover bg-center">
+        <div className="min-h-screen bg-[url('/bg.jpg')] bg-cover bg-center">
         <h1 className="text-black text-4xl text-center font-bold pt-10">AI Readiness Audit</h1>
         <p className="text-black text-1xl text-center pt-6">
   Ensure your content is optimised for how AI processes it. Identify and fix technical issues blocking AI understanding. <br />
