@@ -10,7 +10,7 @@ const handleAnalyze = async()=>{
         if(!text) return alert("Please enter a URL");
         try{
             setButtonx("Analyzing...");
-            //https://ai-readiness-audit-page.onrender.com OR http://localhost:5000/audit
+           //https://ai-readiness-audit-page.onrender.com OR http://localhost:5000/audit
             const response = await fetch("https://ai-readiness-audit-page.onrender.com/audit/",{
                 method: "POST",
                 headers:{
